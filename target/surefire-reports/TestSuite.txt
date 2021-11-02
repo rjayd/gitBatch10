@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 22.226 s <<< FAILURE! - in TestSuite
+testcases.LoginTest.invalidLoginErrorMessageValidation[Admin, , Password cannot be empt](3)  Time elapsed: 0.48 s  <<< FAILURE!
+java.lang.AssertionError: Error message does not match expected [Password cannot be empt] but found [Password cannot be empty]
+	at testcases.LoginTest.invalidLoginErrorMessageValidation(LoginTest.java:38)
+
